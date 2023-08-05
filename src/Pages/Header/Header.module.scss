@@ -1,0 +1,35 @@
+.Header {
+    margin: 1.5rem 24px;
+  
+    .Title {
+        margin-top: 50px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 25px;
+        color: #fff;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    img{
+      rotate: 320deg;
+    }
+
+    button {
+      border-radius: 5px;
+      color: #ffffff;
+      border-color: #fff;
+      font-size: 1rem;
+      background-color: transparent;
+      font-family: 'Roboto';
+
+      width: 130px;
+      height: 45px;
+      margin: 0 auto;
+      margin-top: -50px;
+      display: table-cell;
+      float: right;
+    }
+
+  }
