@@ -1,35 +1,23 @@
 .Header {
-    margin: 1.5rem 24px;
+    margin: 1.0rem 500px;
+    width: 310px;
+    height: 75px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000;
+    align-items: center;
+    
+
   
     .Title {
-        margin-top: 50px;
+        margin-top: -25px;
         font-family: 'Roboto';
         font-weight: 700;
         font-size: 25px;
-        color: #fff;
+        color: #000;
         position: relative;
         text-align: center;
         cursor: pointer;
-    }
-
-    img{
-      rotate: 320deg;
-    }
-
-    button {
-      border-radius: 5px;
-      color: #ffffff;
-      border-color: #fff;
-      font-size: 1rem;
-      background-color: transparent;
-      font-family: 'Roboto';
-
-      width: 130px;
-      height: 45px;
-      margin: 0 auto;
-      margin-top: -50px;
-      display: table-cell;
-      float: right;
     }
 
   }
