@@ -1,7 +1,13 @@
-import InicialPage from "./Pages/InicialPage";
+import { BrowserRouter } from "react-router-dom/dist";
 import './styles/globalstyles.scss'
+import Router from "./routes";
 
-
-export default function App() {
-  return <InicialPage/>
+function App() {
+    return (
+    <BrowserRouter>
+        <Router/>
+    </BrowserRouter>
+    )
 }
+
+export default App;

@@ -1,7 +1,7 @@
 import Header from "../Header";
 import About from "./about";
 
-export default function InicialPage(){
+const InicialPage = () => {
     return(
         <>
         <Header/>
@@ -9,3 +9,5 @@ export default function InicialPage(){
         </>
     )
 }
+
+export default InicialPage
