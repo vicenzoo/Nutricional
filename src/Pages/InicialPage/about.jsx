@@ -13,7 +13,7 @@ export default function About() {
 
         <h3> Comece agora mesmo:</h3>
         <input type='email' placeholder='Insira seu Email'/>
-        <button className={styles.button} onClick={() => navigate("/signup")}> Cadastre-se </button>
+        <button className={styles.button} onClick={() => navigate("/splash")}> Cadastre-se </button>
 
         <button className={styles.button} onClick={() => navigate("/login")}> Login </button>
     </div>
