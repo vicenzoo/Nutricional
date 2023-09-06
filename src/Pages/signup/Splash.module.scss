@@ -1,0 +1,30 @@
+.splash {
+    font-family: 'roboto';
+    color: #000;
+    font-size: 35px;
+    border-radius: 5px;
+    margin: 0 50px;
+    height: 500px;
+    background-color: #fff;
+    
+    h1{
+        text-align: center;
+        padding: 35px;
+    }
+
+    .button {
+        background-color: #4CAF50; /* Green */
+        border-radius: 12px;
+        border: none;
+        color: white;
+        padding: 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 24px;
+        display: flex;
+        margin: 6px 6px;
+        margin-left: 25%;
+        cursor: pointer;        
+    }      
+
+}

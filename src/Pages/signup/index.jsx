@@ -1,7 +1,12 @@
+import Header from "../Header";
+import Splash from "./splash";
 import React from 'react'
 
 export default function SignupPage() {
   return (
-    <h1>SignupPage</h1>
+    <>
+      <Header />
+      <Splash />
+    </>
   )
 }
