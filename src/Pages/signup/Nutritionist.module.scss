@@ -1,0 +1,43 @@
+.nutri {
+    font-family: 'roboto';
+    color: #000;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 10  px;
+    margin: 25px;
+    padding: 15px;
+    background-color: #fff;
+
+    .button {
+        background-color: #4CAF50; /* Green */
+        font-family: 'roboto';
+        border-radius: 10px;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-decoration: none;
+        font-size: 16px;
+        margin-left: 90%;
+        cursor: pointer;        
+    }    
+
+    label{
+        margin-left: 25%;
+        padding: 2px;
+        font-size: medium;
+        display: flex;
+    }
+    
+    input{
+        margin-left: 25%;
+        width: 50%;
+        padding: 12px 20px;
+        display: flex;
+    }
+
+    h2{
+        text-align: center;
+        font-weight: bold;
+        padding: 5px;
+    }
+}
